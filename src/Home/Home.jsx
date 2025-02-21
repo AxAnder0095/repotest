@@ -18,6 +18,8 @@ import GRAD from './imgs/graduated.png'
 import {Icons} from "../Objects/Icons.jsx";
 import Navbar from "../Components/Navbar/Navbar.jsx";
 import Footer from "../Components/Footer/Footer.jsx";
+import Projects from "./Projects.jsx";
+
 
 
 function Home() {
@@ -55,7 +57,21 @@ function Home() {
                 </div>
 
 
-                <div className='container mb-5 border border-dark'></div>
+                <div className='container mb-5 border border-dark'/>
+
+                <div className='text-center text-dark' id='education-ID'>
+                    <img src={BOOKS} alt={'books image'}
+                         style={{ width: '150px', height: '150px' }}
+                         className='mb-3'/>
+                    <h1 className=''>Projects</h1>
+                    <div className=' mb-5'>Personal projects</div>
+                </div>
+
+                <div className='container projects-container d-flex align-items-center justify-content-center'>
+                    <Projects/>
+                </div>
+
+                <div className='container mb-5 mt-5 border border-dark'/>
 
                 {/*skill row title*/}
                 <div className='text-center text-dark' id='skill-ID'>
@@ -217,7 +233,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='container mt-5 mb-5 border border-dark'>{/* spacer */}</div>
+                <div className='container mt-5 mb-5 border border-dark'/>
 
                 {/*education title*/}
                 <div className='text-center text-dark' id='education-ID'>

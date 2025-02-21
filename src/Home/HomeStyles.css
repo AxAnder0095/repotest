@@ -3,14 +3,13 @@
     /*box-shadow: 0 0 15px white;*/
 }
 
-.intro-row{
-    height: 1000px;
+.projects-container{
+    border: 1px solid black;
+    height: 450px;
 }
 
-#self-image{
-    /*border-radius: 50%;*/
-    width: 300px;
-    height: 300px;
+.intro-row{
+    height: 1000px;
 }
 
 .name{
@@ -41,9 +40,6 @@
 .icons{
     height: 20px;
     width: 20px;
-}
-
-.sk{
 }
 
 .skill-row{
