@@ -59,12 +59,11 @@ function Home() {
 
                 <div className='container mb-5 border border-dark'/>
 
-                <div className='text-center text-dark' id='education-ID'>
+                <div className='text-center text-dark mb-5' id='education-ID'>
                     <img src={BOOKS} alt={'books image'}
                          style={{ width: '150px', height: '150px' }}
                          className='mb-3'/>
                     <h1 className=''>Projects</h1>
-                    <div className=' mb-5'>Personal projects</div>
                 </div>
 
                 <div className='container projects-container d-flex align-items-center justify-content-center'>
