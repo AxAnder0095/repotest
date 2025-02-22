@@ -40,17 +40,20 @@ function Home() {
                         <div className='row'>
                             <h3 className='text-dark'>Hi! i&#39;m</h3>
                             <h1 className='name' id='header-name'>Alexander Brown </h1>
-                            <p className='about-me-desc'>and I&#39;m a recent graduate from the amazing Aurora University.
-                                I am extremely passionate about web and software development and are always on the move
-                                to learn new technologies and strengthen my skill set as a future software developer.
-                                Starting at a young age, I would play a lot of video games and always ask the question
-                                &#34;how are these games made&#34;? eventually of many years of playing games led me to pursuing a
-                                degree in computer science. I always had a vivid imagination and wanted to
-                                learn programming so I could eventually make cool projects of my own.
+                            <p className='about-me-desc'>and I&#39;m a recent graduate from Aurora University.
+                                I studied for a degree in Computer Science and learned many technologies and languages along the way, 
+                                my favorite ones so far being C#, Java, Python and React.js. When I was younger and 
+                                started college, I initially didn&#39;t know which degree I would go for, but I always 
+                                remembered the time I attempted to make my own personal website to show to my brother.
+                                While still in my first semester, i would talk to some of my classmates who
+                                were in a computer science curriculum and ask them to show me some projects they made.
+                                A few of them showed me some websites they made for their class project which i thought looked amazing,
+                                and then one classmate showed me his own personal app he made for his desktop that displayed his
+                                pc hardware specs. After witnessing what you can create with programming, I finally made
+                                the decision to pursue a degree in Computer Science.
                                 Being in this space has made me thankful as a person for pushing me to be a
-                                critical thinker and a great problem solver. My favorite things to do on
-                                the side are weight training, video games and cooking. Thanks for checking out my
-                                website!
+                                critical thinker and a great problem solver. Some of my other favorite things to do 
+                                not relating to programming are weight training, video games and cooking.
                             </p>
                         </div>
                     </div>

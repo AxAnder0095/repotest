@@ -14,7 +14,7 @@ export const ProjectData = {
         image: Game,
         title: 'Scratch Off Game',
         alt: 'Scratch Off Game Image',
-        description: 'This is the scratch off mini game from the MMORPG FFXIV. Pick on row of circles' +
+        description: 'This is the scratch off mini game from the MMORPG FFXIV. Pick on row of circles ' +
             'to see how much currency you win. ',
         github: 'https://github.com/AxAnder0095/Mini-Cacptot-Game',
     }
