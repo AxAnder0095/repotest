@@ -15,6 +15,7 @@ import RELATIONIMG from './imgs/relational.png'
 import COMPUTERIMG from './imgs/coding (1).png'
 import BOOKS from './imgs/stack-of-books.png'
 import GRAD from './imgs/graduated.png'
+import WORK from './imgs/software.png'
 import {Icons} from "../Objects/Icons.jsx";
 import Navbar from "../Components/Navbar/Navbar.jsx";
 import Footer from "../Components/Footer/Footer.jsx";
@@ -31,10 +32,7 @@ function Home() {
                 {/*introduction row*/}
                 <div className='row intro-row'>
                     <div className='col-lg-1 d-flex justify-content-center align-items-center'>
-                        {/*<div className='text-center'>*/}
-                        {/*    <svg xmlns={Icons.penguin.path} id={Icons.penguin.iconID} viewBox="0 0 512 512" width="400" height="400">*/}
-                        {/*        <path d={Icons.penguin.d}></path><circle cx="272" cy="64" r="8"></circle></svg>*/}
-                        {/*</div>*/}
+
                     </div>
                     <div className='col-lg-11 d-flex justify-content-center align-items-center'>
                         <div className='row'>
@@ -52,7 +50,7 @@ function Home() {
                                 pc hardware specs. After witnessing what you can create with programming, I finally made
                                 the decision to pursue a degree in Computer Science.
                                 Being in this space has made me thankful as a person for pushing me to be a
-                                critical thinker and a great problem solver. Some of my other favorite things to do 
+                                critical thinker and a great problem solver. Some of my other favorite things to do
                                 not relating to programming are weight training, video games and cooking.
                             </p>
                         </div>
@@ -62,11 +60,12 @@ function Home() {
 
                 <div className='container mb-5 border border-dark'/>
 
-                <div className='text-center text-dark mb-5' id='education-ID'>
-                    <img src={BOOKS} alt={'books image'}
+                <div className='text-center text-dark mb-5' id='projects-ID'>
+                    <img src={WORK} alt={'project image'}
                          style={{ width: '150px', height: '150px' }}
                          className='mb-3'/>
                     <h1 className=''>Projects</h1>
+                    <div>My area for displaying projects I have made</div>
                 </div>
 
                 <div className='container projects-container d-flex align-items-center justify-content-center'>

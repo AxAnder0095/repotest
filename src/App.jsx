@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 
 function App() {
+    // ***Note to myself***
     // make sure the basename in the Router matches the basename
     // in the vite.config.ts file
     // Can use basename="/portfolio/" or basename={import.meta.env.BASE_URL}

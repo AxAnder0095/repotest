@@ -40,6 +40,18 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <ScrollLink
+                                    to={"projects-ID"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-170}
+                                    duration={500}
+                                    className='header-links nav-link'
+                                >
+                                    Projects
+                                </ScrollLink>
+                            </li>
+                            <li className="nav-item">
+                                <ScrollLink
                                     to={"skill-ID"}
                                     spy={true}
                                     smooth={true}
