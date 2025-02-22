@@ -1,4 +1,5 @@
 import Portfolio from './imgs/portfolio.png';
+import Game from './imgs/cactpot.png'
 
 export const ProjectData = {
     portfolio: {
@@ -10,7 +11,7 @@ export const ProjectData = {
         github: 'https://github.com/AxAnder0095/repotest'
     },
     miniCactpot: {
-        image: Portfolio,
+        image: Game,
         title: 'Scratch Off Game',
         alt: 'Scratch Off Game Image',
         description: 'This is the scratch off mini game from the MMORPG FFXIV. Pick on row of circles' +
