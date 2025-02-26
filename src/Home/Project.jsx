@@ -9,8 +9,9 @@ function Project(projectProp) {
             </div>
             <p id='project-title'>{projectProp.title}</p>
             <p id='project-desc'>{projectProp.description}</p>
-            <div className='d-flex justify-content-center'>
+            <div className='d-flex justify-content-center gap-3'>
                 <Link id='project-button' to={projectProp.github}>Code</Link>
+                <Link id='project-button' to={projectProp.demo}>Demo</Link>
             </div>
         </>
     )

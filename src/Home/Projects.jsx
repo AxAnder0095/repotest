@@ -15,6 +15,7 @@ function Projects(){
                         alt={ProjectData.portfolio.alt}
                         description={ProjectData.portfolio.description}
                         github={ProjectData.portfolio.github}
+                        demo={ProjectData.portfolio.demo}
                     />
                 </div>
                 <div className='project col-lg-3'>
@@ -24,9 +25,19 @@ function Projects(){
                         alt={ProjectData.miniCactpot.alt}
                         description={ProjectData.miniCactpot.description}
                         github={ProjectData.miniCactpot.github}
+                        demo={ProjectData.miniCactpot.demo}
                     />
                 </div>
-                {/*<div className='project col-lg-3'>three</div>*/}
+                <div className='project col-lg-3'>
+                    <Project
+                        image={ProjectData.finest.image}
+                        title={ProjectData.finest.title}
+                        alt={ProjectData.finest.alt}
+                        description={ProjectData.finest.description}
+                        github={ProjectData.finest.github}
+                        demo={ProjectData.finest.demo}
+                    />
+                </div>
             </div>
         </div>
     )
