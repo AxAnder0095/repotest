@@ -20,22 +20,22 @@ function Projects(){
                 </div>
                 <div className='project col-lg-3'>
                     <Project
+                        image={ProjectData.weatherApp.image}
+                        title={ProjectData.weatherApp.title}
+                        alt={ProjectData.weatherApp.alt}
+                        description={ProjectData.weatherApp.description}
+                        github={ProjectData.weatherApp.github}
+                        demo={ProjectData.weatherApp.demo}
+                    />
+                </div>
+                <div className='project col-lg-3'>
+                    <Project
                         image={ProjectData.miniCactpot.image}
                         title={ProjectData.miniCactpot.title}
                         alt={ProjectData.miniCactpot.alt}
                         description={ProjectData.miniCactpot.description}
                         github={ProjectData.miniCactpot.github}
                         demo={ProjectData.miniCactpot.demo}
-                    />
-                </div>
-                <div className='project col-lg-3'>
-                    <Project
-                        image={ProjectData.finest.image}
-                        title={ProjectData.finest.title}
-                        alt={ProjectData.finest.alt}
-                        description={ProjectData.finest.description}
-                        github={ProjectData.finest.github}
-                        demo={ProjectData.finest.demo}
                     />
                 </div>
             </div>

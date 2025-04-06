@@ -1,6 +1,7 @@
 import Portfolio from './imgs/portfolio.png';
 import Game from './imgs/cactpot.png'
 import FC from './imgs/fc.jpg'
+import WA from './imgs/NVIDIA_Overlay_lAaY7Em8DA.png'
 
 export const ProjectData = {
     portfolio: {
@@ -28,5 +29,13 @@ export const ProjectData = {
         description: 'NOT FINISHED, currently working on this restaurant themed website. ',
         github: 'https://github.com/AxAnder0095/finestcuisines',
         demo: 'https://youtu.be/KjEx0IGBhgQ'
+    },
+    weatherApp: {
+        image: WA,
+        title: 'Weather App',
+        alt: 'weather app image',
+        description: 'Enter your city and state to see current weather conditions in your area. Open Weather API used for this project',
+        github: 'https://github.com/AxAnder0095/weatherapp',
+        demo: 'https://www.youtube.com/watch?v=_7OMipUL0zc'
     }
 }
