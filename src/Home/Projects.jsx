@@ -7,8 +7,8 @@ import Project from "./Project.jsx";
 function Projects(){
     return (
         <div>
-            <div className='row d-flex justify-content-center gap-4'>
-                <div className='project col-lg-3'>
+            <div className='projects'>
+                <div className='project'>
                     <Project
                         image={ProjectData.portfolio.image}
                         title={ProjectData.portfolio.title}
@@ -18,7 +18,7 @@ function Projects(){
                         demo={ProjectData.portfolio.demo}
                     />
                 </div>
-                <div className='project col-lg-3'>
+                <div className='project'>
                     <Project
                         image={ProjectData.weatherApp.image}
                         title={ProjectData.weatherApp.title}
@@ -28,7 +28,18 @@ function Projects(){
                         demo={ProjectData.weatherApp.demo}
                     />
                 </div>
-                <div className='project col-lg-3'>
+                <div className={'project'}>
+                    <Project
+                        image={ProjectData.animationSite.image}
+                        title={ProjectData.animationSite.title}
+                        alt={ProjectData.animationSite.alt}
+                        description={ProjectData.animationSite.description}
+                        github={ProjectData.animationSite.github}
+                        demo={ProjectData.animationSite.demo}
+                    />
+
+                </div>
+                <div className='project'>
                     <Project
                         image={ProjectData.miniCactpot.image}
                         title={ProjectData.miniCactpot.title}

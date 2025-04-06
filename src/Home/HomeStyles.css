@@ -1,9 +1,13 @@
 .home-container{
     background-color: white;
     /*box-shadow: 0 0 15px white;*/
+    /*border: 1px solid black;*/
 }
 
 .projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-row{

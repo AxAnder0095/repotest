@@ -68,7 +68,7 @@ function Home() {
                     <div>My area for displaying projects I have made</div>
                 </div>
 
-                <div className='container projects-container d-flex align-items-center justify-content-center'>
+                <div className='container projects-container'>
                     <Projects/>
                 </div>
 
